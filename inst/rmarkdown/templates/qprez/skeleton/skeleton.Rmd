@@ -22,7 +22,7 @@ affiliations:
 header-includes:
     - \usepackage{tikz}
 output:
-  qprez:
+  qprez::qprez:
     slide_level: 2
 bibliography: bib/biblio.bib
 ---
