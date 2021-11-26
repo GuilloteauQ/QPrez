@@ -1,0 +1,17 @@
+Package: qprez
+Title: Beamer Presentation at my taste
+Version: 0.1
+Author: Quentin Guilloteau <Quentin.Guilloteau@univ-grenoble-alpes.fr>
+Description: Beamer Presentation at my taste
+Maintainer: Quentin Guilloteau <Quentin.Guilloteau@univ-grenoble-alpes.fr>
+Depends:
+    R (>= 3.2.0)
+Imports:
+    rmarkdown,
+    knitr,
+    R.utils
+License: GPL3
+Encoding: UTF-8
+LazyData: true
+SystemRequirements: pandoc (>= 1.18) - https://pandoc.org
+RoxygenNote: 7.1.1
