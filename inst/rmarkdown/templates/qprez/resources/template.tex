@@ -196,9 +196,9 @@ $endfor$
 $for(affiliations)$
 $for(affiliations.authors)$
 $if(affiliations.authors.is_presenter)$
-\underline{$affiliations.authors.firstname$ \textsc{$affiliations.authors.lastname$}}\!\textsuperscript{$affiliations.mark$}
+\underline{$affiliations.authors.firstname$ \textsc{$affiliations.authors.lastname$}}\textsuperscript{$affiliations.mark$}
 $else$
-$affiliations.authors.firstname$ \textsc{$affiliations.authors.lastname$}\!\textsuperscript{$affiliations.mark$}
+$affiliations.authors.firstname$ \textsc{$affiliations.authors.lastname$}\textsuperscript{$affiliations.mark$}
 $endif$
 $endfor$
 $endfor$
